@@ -1,13 +1,13 @@
 package view;
 import java.util.Scanner;
-import viewmodel.CalculationConsoleView;
+import interfaces.Publisher;
 public class ConsoleView implements interfaces.Listener<Integer>{
     
-    private final CalculationConsoleView calcConsView;
+    private final Publisher<Integer> calcConsView;
     private Character operation;
     private Integer firstNumber;
     private Integer secondNumber;
-    public ConsoleView(CalculationConsoleView calcConsView) {
+    public ConsoleView(Publisher<Integer> calcConsView) {
         this.calcConsView = calcConsView;
     }
 
