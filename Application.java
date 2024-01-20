@@ -9,7 +9,6 @@ public class Application {
         Calculation calc = new Calculation();
         CalculationConsoleView calcConsView= new CalculationConsoleView(calc);
         ConsoleView consView = new ConsoleView(calcConsView);
-
         consView.run();
 
     }

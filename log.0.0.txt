@@ -1,0 +1,4 @@
+Jan 20, 2024 7:03:43 PM Main main
+INFO: Method main in model package started
+Jan 20, 2024 7:04:03 PM model.Calculation calculate
+INFO: Method calculate in model package started
